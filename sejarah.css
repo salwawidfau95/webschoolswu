@@ -1,0 +1,189 @@
+body{
+  background-color: #FFD384;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #080808;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 16px 32px;
+  overflow: hidden;
+}
+  
+li {
+  float: right;
+}
+
+.logo {
+  float: left;
+  transition: 1s;
+  margin-top: 5px;
+}
+  
+.container {
+transition: 1s;
+  margin-top: 5px;
+}
+
+li a {
+  display: block;
+  color: #050505;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.logo-text{
+  font-style: italic;
+  transition: 1s;
+  margin-top: 5px;
+}
+
+li a:hover:not(.active) {
+  color: #ffffff;
+  transition: 1s;
+  margin-top: 2px;
+}
+  
+.active {
+  color: #130802;
+}
+
+@media screen and (max-width: 600px) {
+  ul li {float: none;}
+  .logo {float: none;}
+}
+
+<!--header-->
+img { 
+  width:100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.content1 {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+    background-image: url(https://1.bp.blogspot.com/-Rr76B01JCp8/X0xxNVtdC2I/AAAAAAAAAY8/N2_2o3iOAaUZ0u_S8KjSQHcm8jyMCYW9QCLcBGAsYHQ/s2048/2.%2BGedung%2B2.jpg);
+}
+
+.text1 {
+  margin: 0 2pc;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#tag {
+  margin-top: 0;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+
+mark{
+  background: #ff915b;
+  color: white;
+  padding: 5px 5px;
+}
+
+  .content2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: white;
+    padding: 0 3pc;
+    margin-bottom: -20px;
+  }
+
+.card {
+  background-color: #f7f8f9;
+  transition: 0.3s;
+  width: 300px;
+  min-height: 350px;
+  padding: 52px;
+  margin: 81px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card:hover {
+  background-color: #A8E890;
+}
+
+div.gallery {
+  background-color:  #f7f8f9;
+}
+
+div.gallery img {
+  width: 102%;
+  height: 10pc;
+}
+
+div.desc {
+  padding: 15px 15px 30px 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 8px;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+<!--Footer-->
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-main {
+  background-color:#fa6f2a;
+  padding: 24px 60px;
+  color: white;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 100%;
+  justify-items: center;
+}
+
+@media (max-width: 1024px) {
+  .footer-grid {
+    padding-left: 20px;
+  }
+}
+
+.footer-grid p {
+  margin: 10px 0;
+}
